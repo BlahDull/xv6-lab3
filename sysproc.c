@@ -89,3 +89,34 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+
+int sys_set_priority(void) {
+	int pid, priority;
+	struct proc *p;
+	if(argint(0, &pid) < 0)
+    		return -1;
+	if (argint(1, &priority) < 0)
+                return -1;
+        if (priority < 0) priority = 0;
+        if (priority > 39) priority = 39;
+	p = find_proc(pid);
+	if (p == ((void *)0)) return -1;
+	p->nice = priority;
+        return 0;
+}
+
+int sys_get_priority(void) {
+	int pid;
+	struct proc *p;
+	if (argint(0, &pid) < 0)
+		return -1;
+	p = find_proc(pid);
+	if (p == ((void *)0)) return -1;
+	return p->nice;
+}
+
+int 
+sys_cps(void)
+{
+	return get_states();
+}
