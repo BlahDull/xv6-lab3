@@ -1,0 +1,20 @@
+Time Logging:
+
+ESTIMATE of time to complete the lab: 14 hours
+
+Date	Start Time	Time Spent	Lab Part	Work Completed
+-----	----------	----------	--------	--------------
+10/11	6:00		9:00		3		Research assignment, completed the exercise
+10/13	2:00		5:00		4		Research task 4, studied priority scheduling, modified the scheduler
+10/14	9:00		11:00		4		Modified lab3test.c to show priority scheduling, error checking then completion
+			----------
+			8:00 TOTAL time spent
+
+
+Major difficulties: The major difficulty for task 3 was figuring out exactly what we needed in order to have the parent wait for the 
+child to complete. It was actually a lot simpler than I expected. All we needed was a single wait() function call in order to have
+the parent wait for the child to complete. The only issue after this was the printing of the results, where it would sometimes print
+randomly when the lab3test.c was executed. The major issue with task 4 was showing how the priority scheduler was working. Modifiying the
+scheduler function was not a huge issue, but it did cause some problems. However, showing how the scheduler worked was a massive issue.
+Eventually, I had to modify the lab3test.c in order to include the priority to get it to work properly.
+
