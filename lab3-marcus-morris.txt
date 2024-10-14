@@ -8,7 +8,7 @@ Date	Start Time	Time Spent	Lab Part	Work Completed
 10/13	2:00		5:00		4		Research task 4, studied priority scheduling, modified the scheduler
 10/14	9:00		11:00		4		Modified lab3test.c to show priority scheduling, error checking then completion
 			----------
-			8:00 TOTAL time spent
+			8:00 + Task 1 + Task 2 TOTAL time spent
 
 
 Major difficulties: The major difficulty for task 3 was figuring out exactly what we needed in order to have the parent wait for the 
