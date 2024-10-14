@@ -1,0 +1,172 @@
+Task 3:
+
+$ lab3test &; lab3test &; lab3test &
+$ Parent 5 creating child 9
+Child 9 created
+Parent 8 creating child 10
+Child 10 created
+PareChild 11 created
+nt 7 creating child 11
+ps
+name 	 pid 	 state 	 priority 
+init 	 1 	 SLEEEPING 	 10 
+sh 	 2 	 SLEEEPING 	 10 
+lab3test 	 9 	 RUNNABLE 	 20 
+lab3test 	 8 	 SLEEEPING 	 10 
+lab3test 	 5 	 SLEEEPING 	 10 
+lab3test 	 7 	 SLEEEPING 	 10 
+lab3test 	 10 	 RUNNING 	 20 
+lab3test 	 11 	 RUNNABLE 	 20 
+ps 	 12 	 RUNNING 	 10 
+$ ps
+name 	 pid 	 state 	 priority 
+init 	 1 	 SLEEEPING 	 10 
+sh 	 2 	 SLEEEPING 	 10 
+lab3test 	 9 	 RUNNING 	 20 
+lab3test 	 8 	 SLEEEPING 	 10 
+lab3test 	 5 	 SLEEEPING 	 10 
+lab3test 	 7 	 SLEEEPING 	 10 
+lab3test 	 10 	 RUNNABLE 	 20 
+lab3test 	 11 	 RUNNABLE 	 20 
+ps 	 13 	 RUNNING 	 10 
+$ ps
+name 	 pid 	 state 	 priority 
+init 	 1 	 SLEEEPING 	 10 
+sh 	 2 	 SLEEEPING 	 10 
+lab3test 	 9 	 RUNNABLE 	 20 
+lab3test 	 8 	 SLEEEPING 	 10 
+lab3test 	 5 	 SLEEEPING 	 10 
+lab3test 	 7 	 SLEEEPING 	 10 
+lab3test 	 10 	 RUNNABLE 	 20 
+lab3test 	 11 	 RUNNING 	 20 
+ps 	 14 	 RUNNING 	 10 
+$ ps
+name 	 pid 	 state 	 priority 
+init 	 1 	 SLEEEPING 	 10 
+sh 	 2 	 SLEEEPING 	 10 
+lab3test 	 9 	 RUNNABLE 	 20 
+lab3test 	 8 	 SLEEEPING 	 10 
+lab3test 	 5 	 SLEEEPING 	 10 
+lab3test 	 7 	 SLEEEPING 	 10 
+lab3test 	 10 	 RUNNING 	 20 
+lab3test 	 11 	 RUNNABLE 	 20 
+ps 	 15 	 RUNNING 	 10 
+$ ps
+name 	 pid 	 state 	 priority 
+init 	 1 	 SLEEEPING 	 10 
+sh 	 2 	 SLEEEPING 	 10 
+lab3test 	 9 	 RUNNABLE 	 20 
+lab3test 	 8 	 SLEEEPING 	 10 
+lab3test 	 5 	 SLEEEPING 	 10 
+lab3test 	 7 	 SLEEEPING 	 10 
+lab3test 	 10 	 RUNNING 	 20 
+lab3test 	 11 	 RUNNABLE 	 20 
+ps 	 16 	 RUNNING 	 10 
+$ ps
+name 	 pid 	 state 	 priority 
+init 	 1 	 SLEEEPING 	 10 
+sh 	 2 	 SLEEEPING 	 10 
+lab3test 	 9 	 RUNNABLE 	 20 
+lab3test 	 8 	 SLEEEPING 	 10 
+lab3test 	 5 	 SLEEEPING 	 10 
+lab3test 	 7 	 SLEEEPING 	 10 
+lab3test 	 10 	 RUNNABLE 	 20 
+lab3test 	 11 	 RUNNING 	 20 
+ps 	 17 	 RUNNING 	 10 
+$ ps
+name 	 pid 	 state 	 priority 
+init 	 1 	 SLEEEPING 	 10 
+sh 	 2 	 SLEEEPING 	 10 
+lab3test 	 9 	 RUNNABLE 	 20 
+lab3test 	 8 	 SLEEEPING 	 10 
+lab3test 	 5 	 SLEEEPING 	 10 
+lab3test 	 7 	 SLEEEPING 	 10 
+lab3test 	 10 	 RUNNABLE 	 20 
+lab3test 	 11 	 RUNNING 	 20 
+ps 	 18 	 RUNNING 	 10 
+$ ps
+name 	 pid 	 state 	 priority 
+init 	 1 	 SLEEEPING 	 10 
+sh 	 2 	 SLEEEPING 	 10 
+lab3test 	 9 	 RUNNING 	 20 
+lab3test 	 8 	 SLEEEPING 	 10 
+lab3test 	 5 	 SLEEEPING 	 10 
+lab3test 	 7 	 SLEEEPING 	 10 
+lab3test 	 10 	 RUNNABLE 	 20 
+lab3test 	 11 	 RUNNABLE 	 20 
+ps 	 19 	 RUNNING 	 10 
+$ ps
+name 	 pid 	 state 	 priority 
+init 	 1 	 SLEEEPING 	 10 
+sh 	 2 	 SLEEEPING 	 10 
+lab3test 	 9 	 RUNNING 	 20 
+lab3test 	 8 	 SLEEEPING 	 10 
+lab3test 	 5 	 SLEEEPING 	 10 
+lab3test 	 7 	 SLEEEPING 	 10 
+lab3test 	 10 	 RUNNABLE 	 20 
+lab3test 	 11 	 RUNNABLE 	 20 
+ps 	 20 	 RUNNING 	 10 
+$ ps
+name 	 pid 	 state 	 priority 
+init 	 1 	 SLEEEPING 	 10 
+sh 	 2 	 SLEEEPING 	 10 
+lab3test 	 9 	 RUNNABLE 	 20 
+lab3test 	 8 	 SLEEEPING 	 10 
+lab3test 	 5 	 SLEEEPING 	 10 
+lab3test 	 7 	 SLEEEPING 	 10 
+lab3test 	 10 	 RUNNING 	 20 
+lab3test 	 11 	 RUNNABLE 	 20 
+ps 	 21 	 RUNNING 	 10 
+$ ps
+name 	 pid 	 state 	 priority 
+init 	 1 	 SLEEEPING 	 10 
+sh 	 2 	 SLEEEPING 	 10 
+lab3test 	 9 	 RUNNING 	 20 
+lab3test 	 8 	 SLEEEPING 	 10 
+lab3test 	 5 	 SLEEEPING 	 10 
+lab3test 	 7 	 SLEEEPING 	 10 
+lab3test 	 10 	 RUNNABLE 	 20 
+lab3test 	 11 	 RUNNABLE 	 20 
+ps 	 22 	 RUNNING 	 10 
+$ ps
+name 	 pid 	 state 	 priority 
+init 	 1 	 SLEEEPING 	 10 
+sh 	 2 	 SLEEEPING 	 10 
+lab3test 	 9 	 RUNNABLE 	 20 
+lab3test 	 8 	 SLEEEPING 	 10 
+lab3test 	 5 	 SLEEEPING 	 10 
+lab3test 	 7 	 SLEEEPING 	 10 
+lab3test 	 10 	 RUNNABLE 	 20 
+lab3test 	 11 	 RUNNING 	 20 
+ps 	 23 	 RUNNING 	 10 
+
+Explanation: As you can see in the above results, after running lab3test 3 times in total, it causes us to have 3 parent and 3 children
+processes. After they are created, we are able to see the status of each process as it is running through. This is actually a great
+example of how the round-robin scheduling works. You can see that the lab3test 9, 10, and 11 are continually switching between RUNNING
+and RUNNABLE. The reason that they are switching is because of the round-robin scheduling. Once a process reaches the maximum amount
+that a process can run, it pauses the process and then switches to another one. This keeps going on repeat until each process is completed.
+For example, lab3test 9 is RUNNING, but it reaches the maximum amount that it can run in this scheduler. So, it switches to RUNNABLE and then
+lab3test 10 switches from RUNNABLE to RUNNING. Once they go back around, lab3test 9 will go back to RUNNING until it gets paused again.
+
+Task 4:
+
+$ lab3test 4 &
+$ Parent 4 creating child 5 with priority 39
+Parent 4 creating child 6 with priority 36
+Parent 4 creating child 7 with priority 33
+Parent 4 creating child 8 with priority 30
+Child 8 completed with priority of 30
+Child 7 completed with priority of 33
+Child 6 completed with priority of 36
+Child 5 completed with priority of 39
+zombie!
+ps
+name 	 pid 	 state 	 priority 
+init 	 1 	 SLEEEPING 	 10 
+sh 	 2 	 SLEEEPING 	 10 
+ps 	 9 	 RUNNING 	 10
+
+Explanation: As you can see in the above results, after running lab3test, we create 4 child processes with one parent. You can also see 
+the priority of each child process as well. The results show that the one with the lowest priority value (lower the number, higher priority)
+gets completed first. It moves back up until the last child is completed and then the parent process turns into a zombie process. Since
+all processes are complete, ps does not show the lab3test processes being run.
